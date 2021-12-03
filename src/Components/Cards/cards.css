@@ -1,0 +1,114 @@
+.cards_container {
+  background-color: #f8ed8b;
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+}
+.card_box_wrapper_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_box1_wrapper {
+  width: 266.36px;
+  height: 470px;
+  background-color: #ffffff;
+  
+}
+.card_box2_wrapper {
+  width: 266.36px;
+  height: 470px;
+  background-color: #ffffff;
+}
+.card_box3_wrapper {
+  width: 266.36px;
+  height: 470px;
+  background-color: #ffffff;
+}
+
+.col1_cards_box1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.col_title_cards {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+.cards_wrapper_box_img_txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 0px 10.05px;
+
+}
+.thumbnail_box_cards{
+    width: 121.92px;
+    height: 90.46px;
+    background-image: url('./assets/images/stephanie.png');
+    background-repeat: no-repeat;
+    box-shadow: 5px 3px 0px 1px rgba(248,108,95,1);
+    -webkit-box-shadow: 5px 3px 0px 1px rgba(248,108,95,1);
+    -moz-box-shadow: 5px 3px 0px 1px rgba(248,108,95,1);
+}
+.category_txt_cards{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+}
+.teneasy_txt_cards{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0px !important;
+}
+.byMM_txt_cards{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 0px !important;
+}
+
+.dis-mobile{
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .dis{
+    display: none;
+  }
+  .dis-mobile{
+    display: block;
+  }
+  .mv_cards_container {
+    background-color: #f8ed8b;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .mv_cards_margins{
+    padding:20px 0px;
+  }
+}
+
+@media only screen and (max-width: 873px) {
+  .dis{
+    display: none;
+  }
+  .dis-mobile{
+    display: block;
+  }
+  .mv_cards_container {
+    background-color: #f8ed8b;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .mv_cards_margins{
+    padding:20px 0px;
+  }
+}

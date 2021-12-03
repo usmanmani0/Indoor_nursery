@@ -1,0 +1,94 @@
+.FLEX_CENTER_ROW_GUIDES{
+    display: flex;
+    justify-content: center;
+}
+.FLEX_CENTER_ROW_BOX{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 10rem;
+}
+.guides_container {
+  margin-top: 4.188rem !important;
+}
+.pcg_wrapper {
+  width: 22.563rem;
+  height: 5.313rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle8 {
+  position: absolute;
+  width: 19.875rem;
+  height: 0.813rem;
+  top: 2.063rem;
+  left: .5rem;
+  background: #C3D50059 35%;
+  z-index: -1;
+}
+.pcg_txt{
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    position: relative;
+}
+.box1_guides{
+  width: 15.625rem;
+  height: 12.5rem;
+  background-image: url('./assets/images/annie1.png');
+  background-repeat: no-repeat;
+  box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -webkit-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -moz-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+}
+.box2_guides{
+  width: 15.625rem;
+  height: 12.5rem;
+  background-image: url('./assets/images/annie2.png');
+  background-repeat: no-repeat;
+  box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -webkit-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -moz-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+}
+.box3_guides{
+  width: 15.625rem;
+  height: 12.5rem;
+  background-image: url('./assets/images/annie3.png');
+  background-repeat: no-repeat;
+  box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -webkit-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -moz-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+}
+.box_1_wrapper_guides{
+  width: 15.625rem;
+  height: 20.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.box1_guides_txt_wrapper{
+  margin: 15px 0px 0px 7px;
+}
+.cat_txt_box_1_guides{
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #3C4657;
+
+}
+
+.bsp_txt_box_1_guides{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.by_txt_box_1_guides{
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #3C4657;
+}
+.MM_txt_box_1_guides{
+    color:rgba(248,108,95,1)
+}

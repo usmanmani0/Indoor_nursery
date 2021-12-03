@@ -1,0 +1,108 @@
+.annie1_img_carousel {
+  width: 177.04px;
+  height: 159.62px;
+  box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -webkit-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+  -moz-box-shadow: 7px 8px 0px 0px rgba(195, 213, 0, 1);
+}
+
+.carousel_wrapper{
+  padding-top: 20px;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+}
+.slick-slide {
+	margin-right:0px;
+}
+
+.slick-next:before {
+  content: url("./assets/images/Arrow\ 2.png") !important;
+}
+
+.slick-prev:before {
+  content: url("./assets/images/Arrow\ 1.png") !important;
+}
+
+.slick-prev {
+  left: -56px !important;
+  top: 100px !important;
+}
+.slick-next {
+    top: 100px !important;
+}
+.cool_prod_txt_carousel {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.our_rating_txt_carousel {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3c4657;
+}
+
+.ten_nmbr_carousel {
+  font-size: 14px;
+  line-height: 21px;
+  color: #3c4657;
+  font-weight: 300;
+}
+
+.see_prices_btn_carousel {
+  width: 118px;
+  height: 26px;
+  background-color: #e5383b;
+  color: #fff;
+  border: none !important;
+}
+
+.carosel_desc_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  /* .slick-prev {
+    left: 0px !important;
+    top: 100px !important;
+  }
+  .slick-next {
+    left: 494px ;
+    background-color: transparent !important;
+} */
+/* .carousel_wrapper{
+ 
+ margin: 0px 15px;
+} */
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1250px){
+  .slick-prev {
+    left: -10px !important;
+    top: 100px !important;
+  }
+  .slick-next {
+    right: 10px !important ;
+    background-color: transparent !important;
+}
+}
+
+@media only screen and (min-width: 991px) and (max-width:1050px){
+  .slick-prev {
+    left: -25px !important;
+    top: 100px !important;
+  }
+  .slick-next {
+    right: 5px !important ;
+    background-color: transparent !important;
+}
+}
