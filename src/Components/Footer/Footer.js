@@ -106,7 +106,7 @@ const Footer = () => {
               sm={6}
               xs={10}
             >
-              <div className="signup_input_btn">
+              <div className="signup_input_btn_footer">
                 <InputGroup>
                   <FormControl
                     placeholder="put your email here"

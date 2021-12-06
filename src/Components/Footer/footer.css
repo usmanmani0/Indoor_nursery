@@ -118,4 +118,9 @@
         justify-content: space-between;
         
     }
+    .signup_input_btn_footer {
+        padding-right: 0px;
+        margin-top: 0px !important;
+        width: 100%;
+      }
   }
